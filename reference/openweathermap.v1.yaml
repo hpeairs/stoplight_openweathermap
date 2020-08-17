@@ -77,6 +77,10 @@ paths:
           in: query
           name: mode
           description: '**Mode**. *Example: html. Determines the format of the response. Possible values are `json`, `xml`, and `html`. If the mode parameter is empty, the format is `json` by default.'
+        - schema:
+            type: string
+          in: query
+          name: APPID
     parameters: []
 components:
   schemas: {}
